@@ -4,7 +4,7 @@ RAG Pipeline Orchestrator
 Main pipeline that orchestrates text ingestion, chunking, embedding,
 and storage in MongoDB vector store.
 """
-from typing import List, Dict, Any, Optional, Union
+from typing import Dict, Any, Union
 from loguru import logger
 
 from llama_index.core.schema import BaseNode

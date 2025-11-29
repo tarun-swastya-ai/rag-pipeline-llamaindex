@@ -7,7 +7,6 @@ Implements dual update strategy: store on context changes + refresh if stale.
 from typing import Dict, Any, Optional
 from datetime import datetime, timezone, timedelta
 from loguru import logger
-import asyncio
 
 from rag.config import rag_config
 from rag.pipeline import RAGPipeline

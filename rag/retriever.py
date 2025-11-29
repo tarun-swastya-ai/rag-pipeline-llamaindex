@@ -4,7 +4,7 @@ RAG Retriever
 Query interface for retrieving relevant context from the vector store
 with user/tenant filtering using LlamaIndex's built-in retriever.
 """
-from typing import List, Dict, Any, Optional, cast
+from typing import List, Dict, Any, cast
 from loguru import logger
 
 from llama_index.core import VectorStoreIndex, StorageContext
