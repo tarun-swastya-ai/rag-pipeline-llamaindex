@@ -29,7 +29,6 @@ A complete Retrieval-Augmented Generation (RAG) pipeline using LlamaIndex with M
 ┌─────────────────┐
 │    Semantic     │
 │    Chunking     │ (SemanticSplitterNodeParser)
-│  [2048/512/128] │
 └────────┬────────┘
          │
          ▼
